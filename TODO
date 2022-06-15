@@ -1,1 +1,2 @@
-// make bot only process one request at a time if timeout is s
+// make bot only process one request at a time if timeout is set. 
+// Currently bot will process every
