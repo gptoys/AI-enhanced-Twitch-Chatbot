@@ -1,1 +1,1 @@
-const newCo
+const newConnectToTwitch = (TwitchClient) =
