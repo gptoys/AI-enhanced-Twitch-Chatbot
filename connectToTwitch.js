@@ -1,2 +1,3 @@
 const newConnectToTwitch = (TwitchClient) => {
-  const connectButton = docum
+  const connectButton = document.getElementById("submit");
+  lockables = document.
