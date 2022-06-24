@@ -1,1 +1,2 @@
-const newConnectToTwitch = (TwitchClient) =
+const newConnectToTwitch = (TwitchClient) => {
+  const connectButton = docum
