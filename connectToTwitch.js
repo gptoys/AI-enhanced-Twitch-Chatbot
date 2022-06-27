@@ -1,4 +1,5 @@
 const newConnectToTwitch = (TwitchClient) => {
   const connectButton = document.getElementById("submit");
   lockables = document.querySelectorAll(".lockable");
-  TwitchClient
+  TwitchClient.connect().then(
+    function (result)
