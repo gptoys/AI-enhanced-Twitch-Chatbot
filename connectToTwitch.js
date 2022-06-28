@@ -4,4 +4,5 @@ const newConnectToTwitch = (TwitchClient) => {
   TwitchClient.connect().then(
     function (result) {
       connectButton.style = "background-color:green";
-      connectButton.innerHTML =
+      connectButton.innerHTML = `#${channelName}`;
+      connectB
