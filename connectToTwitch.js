@@ -3,4 +3,5 @@ const newConnectToTwitch = (TwitchClient) => {
   lockables = document.querySelectorAll(".lockable");
   TwitchClient.connect().then(
     function (result) {
-      connectButton.style = "
+      connectButton.style = "background-color:green";
+      connectButton.innerHTML =
