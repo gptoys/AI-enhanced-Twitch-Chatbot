@@ -6,4 +6,4 @@ const newConnectToTwitch = (TwitchClient) => {
       connectButton.style = "background-color:green";
       connectButton.innerHTML = `#${channelName}`;
       connectButton.disabled = true;
-      TwitchC
+      TwitchClient.say(channelName, "AI has arrived. Ask me anyt
