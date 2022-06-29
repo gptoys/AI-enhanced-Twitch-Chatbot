@@ -5,4 +5,5 @@ const newConnectToTwitch = (TwitchClient) => {
     function (result) {
       connectButton.style = "background-color:green";
       connectButton.innerHTML = `#${channelName}`;
-      connectB
+      connectButton.disabled = true;
+      TwitchC
