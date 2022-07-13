@@ -11,4 +11,5 @@ const newConnectToTwitch = (TwitchClient) => {
       lockables.forEach(element => element.style = "filter: brightness(50%);")
       document.getElementById("disconnect").addEventListener("click", () => {
         TwitchClient.disconnect();
-        connectButto
+        connectButton.disabled = false;
+        conn
