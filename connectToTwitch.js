@@ -12,4 +12,5 @@ const newConnectToTwitch = (TwitchClient) => {
       document.getElementById("disconnect").addEventListener("click", () => {
         TwitchClient.disconnect();
         connectButton.disabled = false;
-        conn
+        connectButton.innerHTML = "connect";
+        co
