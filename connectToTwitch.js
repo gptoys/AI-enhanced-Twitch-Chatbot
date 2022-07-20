@@ -14,4 +14,5 @@ const newConnectToTwitch = (TwitchClient) => {
         connectButton.disabled = false;
         connectButton.innerHTML = "connect";
         connectButton.style = "";
-        lockables.forEach(element => element.disabled = 
+        lockables.forEach(element => element.disabled = "false")
+        lockables.forEach(element => e
