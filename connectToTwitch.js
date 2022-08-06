@@ -18,4 +18,5 @@ const newConnectToTwitch = (TwitchClient) => {
         lockables.forEach(element => element.style = "filter: brightness(100%);")
       });
     },
-    fu
+    function (error) {
+      // this fun
