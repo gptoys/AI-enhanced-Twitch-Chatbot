@@ -15,4 +15,4 @@ const newConnectToTwitch = (TwitchClient) => {
         connectButton.innerHTML = "connect";
         connectButton.style = "";
         lockables.forEach(element => element.disabled = "false")
-        lockables.forEach(element => e
+        lockables.forEach(element => element.style = "filter: brightness(100%)
