@@ -19,4 +19,4 @@ const newConnectToTwitch = (TwitchClient) => {
       });
     },
     function (error) {
-      // this fun
+      // this function is called if the promise is rejec
