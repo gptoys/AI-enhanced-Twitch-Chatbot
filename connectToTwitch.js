@@ -19,4 +19,5 @@ const newConnectToTwitch = (TwitchClient) => {
       });
     },
     function (error) {
-      // this function is called if the promise is rejec
+      // this function is called if the promise is rejected
+      connectButton.style = "backgrou
