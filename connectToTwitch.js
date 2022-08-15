@@ -20,4 +20,5 @@ const newConnectToTwitch = (TwitchClient) => {
     },
     function (error) {
       // this function is called if the promise is rejected
-      connectButton.style = "backgrou
+      connectButton.style = "background-color:red";
+      connectButton.innerHTML = `C
