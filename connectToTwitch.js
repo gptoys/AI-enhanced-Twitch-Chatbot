@@ -21,4 +21,4 @@ const newConnectToTwitch = (TwitchClient) => {
     function (error) {
       // this function is called if the promise is rejected
       connectButton.style = "background-color:red";
-      connectButton.innerHTML = `C
+      connectButton.innerHTML = `Couldn't connect to Twitch. Check your oauth token
