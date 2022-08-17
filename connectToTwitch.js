@@ -25,4 +25,4 @@ const newConnectToTwitch = (TwitchClient) => {
     }
   );
 };
-module.exports = newConnec
+module.exports = newConnectToTwitch;

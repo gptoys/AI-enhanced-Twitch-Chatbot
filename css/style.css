@@ -1,0 +1,32 @@
+
+::-webkit-scrollbar {
+  display: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.showPass {
+  position: absolute;
+  left: 350px;
+  top: 27px;
+  z-index:2;
+}
+/* [type="checkbox"]{
+  position: relative;
+  bottom: 18px;
+  left: 130px;
+
+} */
+p a {
+  color: rgba(255, 255, 255, 0.6) !important
+}
+.tooltip {
+  position: relative;
+}
