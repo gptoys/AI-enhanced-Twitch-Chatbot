@@ -30,3 +30,50 @@ p a {
 .tooltip {
   position: relative;
 }
+
+.tooltip[help]:hover:after {
+  content: attr(help);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -6px);
+  padding: 4px 8px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  white-space: pre-wrap;
+  z-index: 1;
+  border-radius: 5%;
+  border: 2px solid;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  background-color: #222;
+}
+
+.maincontainer {
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  height: 300px;
+}
+
+.formcontainer {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.formcontainer label {
+  display: block;
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+.formcontainer input[type="text"] {
+  width: 100%;
+  padding: 10px;
