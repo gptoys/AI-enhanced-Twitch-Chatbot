@@ -113,3 +113,47 @@ body {
 
 .CDbuttons {
   display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.CDbuttons button {
+  width: 45%;
+  background-color: #00b8d4;
+  color: rgba(255, 255, 255, 1);
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.CDbuttons button:hover {
+  background-color: #0052cc;
+}
+
+.features {
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+.features h1{
+  text-align: center;
+}
+
+.features p{
+  text-align: left;
+}
+
+.features label {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+.wordlist-container {
+  text-align: center;
+  margin-top:10px;
+}
+
+.features input[type="file"] {
+  font-size: 0.9em;
