@@ -19,3 +19,34 @@
           <label for="oauth">TMI oauth key:</label>
           <input type="password" class="lockable" id="oauth" name="oauth" />
           <label for="aiKey">OpenAI api key:</label>
+          <input type="password" class="lockable" id="aiKey" name="aiKey" />
+          <div class="unlockable">
+          <label for="tokens"
+            >Amount of tokens per request <br />* one token is roughly 4 chars
+            in english<br />* twitch chat message is limited by 500 chars</label
+          >
+          <input type="number" id="tokens" name="tokens" value="200" min="0" />
+          <label for="timeout">timeout in seconds between messages <span style="color:#00b8d4" help="This feature is intended to prevent flooding chat with messages from AI. If this field is not empty, bot will wait given amount of seconds before it will start reading chat again." class="tooltip timeouttip">[?]</span></label>
+          <input type="number" id="timeout" name="timeout" value="0" min="0"/>
+        </div>
+        </form>
+        <div class="CDbuttons">
+          <button value="start" id="submit">connect</button>
+          <button value="disconnect" id="disconnect">disconnect</button>
+        </div>
+        <div class="CDbuttons">
+          <button id="saveCreds">save credentials</button>
+          <button id="loadCreds">load credentials</button>
+        </div>
+      </div>
+      <div class="features">
+        <h1>Twitch AI chat bot</h1>
+        <p>
+          1. to get TMI oauth key go to
+          <a id="tmilink" href="#">https://twitchapps.com/tmi/</a>, connect it
+          to twitch and copy the value of oauth key
+        </p>
+        <p>
+          2. to get OpenAI api key go to
+          <a id="ailink" href="#">https://beta.openai.com/account/api-keys</a>,
+          press "Create new secret key" and put it into "AI" key here
