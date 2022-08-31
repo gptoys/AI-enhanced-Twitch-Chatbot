@@ -41,3 +41,8 @@ app.on('activate', () => {
 ipcMain.on('tmiclicked', (event, arg) => {
   event.returnValue = 'Message received!'
   require('electron').shell.openExternal(`https://twitchapps.com/tmi/`);
+})
+ipcMain.on('aiclicked', (event, arg) => {
+  event.returnValue = 'Message received!'
+  require('electron').shell.openExternal(`https://beta.openai.com/account/api-keys`);
+})
