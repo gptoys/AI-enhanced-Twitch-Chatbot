@@ -50,3 +50,46 @@
           2. to get OpenAI api key go to
           <a id="ailink" href="#">https://beta.openai.com/account/api-keys</a>,
           press "Create new secret key" and put it into "AI" key here
+        </p>
+        <p
+          class="tooltip"
+          help="The file should contain exact words and phrases with no spaces between them and separated by comma like:
+
+blue,adam's apple,b0rder-box
+
+once you've loaded the file it is stored in root directory of the bot as 'stoplist.csv' and you don't have to load it again. You can edit file manually."
+          for="wordlist"
+        >
+          OPTIONAL:add a csv with words or phrases that you wish not to be
+          passed to the AI. Hover here to get example.<br />
+        </p>
+        <div class="wordlist-container">
+          <input id="wordlist" type="file" accept=".csv" />
+          <button id="addWords">add words to the list</button>
+        </div>
+        <div id="loadComplete"></div>
+        <div class="statuses">
+          <p>OpenAI status:</p>
+        </div>
+
+        <div id="aiStatus">Waiting for request to be performed.</div>
+      </div>
+    </div>
+
+    <script>
+      let oauthInput = document.getElementById("oauth");
+      let aiKeyInput = document.getElementById("aiKey");
+      let toggle = document.getElementById("password-toggle");
+
+      toggle.addEventListener("change", function () {
+        oauthInput.type = this.checked ? "text" : "password";
+        aiKeyInput.type = this.checked ? "text" : "password";
+      });
+    </script>
+    <script>
+      require("./logic.js");
+    </script>
+    <script>
+      require("./savenload.js");
+    </script>
+    <script>
