@@ -1,2 +1,3 @@
 const electron = require("electron");
-const
+const ipc = electron.ipcRenderer;
+const newConnectToT
