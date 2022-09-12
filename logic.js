@@ -6,4 +6,4 @@ const handleMessage = require("./messageHandler")
 //use twurple instead
 
 
-document.getElement
+document.getElementById("tmilink").addEventListener("click", fu
