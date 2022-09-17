@@ -6,4 +6,5 @@ const handleMessage = require("./messageHandler")
 //use twurple instead
 
 
-document.getElementById("tmilink").addEventListener("click", fu
+document.getElementById("tmilink").addEventListener("click", function () {
+  let active_hotspot_id = localSto
