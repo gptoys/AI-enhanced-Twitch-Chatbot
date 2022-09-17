@@ -8,3 +8,4 @@ const handleMessage = require("./messageHandler")
 
 document.getElementById("tmilink").addEventListener("click", function () {
   let active_hotspot_id = localStorage.getItem("active_hotspot_id");
+  ipc.send("tmiclicked", active_ho
