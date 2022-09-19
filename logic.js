@@ -11,4 +11,5 @@ document.getElementById("tmilink").addEventListener("click", function () {
   ipc.send("tmiclicked", active_hotspot_id);
 });
 
-document.getElementById("ailink").addEventListener("click", 
+document.getElementById("ailink").addEventListener("click", function () {
+  let active_hotspot_id = l
