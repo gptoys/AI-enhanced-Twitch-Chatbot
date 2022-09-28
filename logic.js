@@ -13,4 +13,6 @@ document.getElementById("tmilink").addEventListener("click", function () {
 
 document.getElementById("ailink").addEventListener("click", function () {
   let active_hotspot_id = localStorage.getItem("active_hotspot_id");
-  ipc.send("aiclicked", active_hotspot_
+  ipc.send("aiclicked", active_hotspot_id);
+});
+document.getElementById("submit").
