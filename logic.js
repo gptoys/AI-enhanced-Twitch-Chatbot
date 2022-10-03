@@ -16,4 +16,5 @@ document.getElementById("ailink").addEventListener("click", function () {
   ipc.send("aiclicked", active_hotspot_id);
 });
 document.getElementById("submit").addEventListener("click", () => {
-  const T
+  const TwitchClient = require("./client");
+  newConne
