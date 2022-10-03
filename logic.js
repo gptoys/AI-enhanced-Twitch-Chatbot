@@ -15,4 +15,5 @@ document.getElementById("ailink").addEventListener("click", function () {
   let active_hotspot_id = localStorage.getItem("active_hotspot_id");
   ipc.send("aiclicked", active_hotspot_id);
 });
-document.getElementById("submit").
+document.getElementById("submit").addEventListener("click", () => {
+  const T
