@@ -18,4 +18,5 @@ document.getElementById("ailink").addEventListener("click", function () {
 document.getElementById("submit").addEventListener("click", () => {
   const TwitchClient = require("./client");
   newConnectToTwitch(TwitchClient);
-  handleMessa
+  handleMessage(TwitchClient);
+});
