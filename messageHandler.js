@@ -52,3 +52,39 @@ if (isNaN(tokensHTML) || tokensHTML <= 10) {
 }
     let aiKey = document.getElementById("aiKey").value;
     axios
+      .post(
+        OPENAI_ENDPOINT,
+        {
+          prompt: twitchMessage,
+          model: MODEL,
+          max_tokens: tokens,
+          n: 1,
+          temperature: 0.9,
+        },
+        {
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${aiKey}`,
+          },
+        }
+      )
+      .then((response) => {
+        // The completed text will be in the `response.data.choices[0].text` property
+        const result = response.data.choices[0].text;
+        console.log(response);
+        lastGPTResponse.innerHTML =
+          "<p style='color:green'>AI is working as intended</p>";
+        // console.log(result)
+        const messages = [];
+        let currentMessage = "";
+        for (const word of result.split(" ")) {
+          if (currentMessage.length + word.length + 1 > 500) {
+            // Add the current message to the list of messages
+            messages.push(currentMessage);
+            // Start a new message
+            currentMessage = "";
+          }
+
+          // Add the word to the current message
+          currentMessage += `${word} `;
+        }
