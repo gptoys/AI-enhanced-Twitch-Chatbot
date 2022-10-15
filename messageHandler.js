@@ -88,3 +88,33 @@ if (isNaN(tokensHTML) || tokensHTML <= 10) {
           // Add the word to the current message
           currentMessage += `${word} `;
         }
+
+        // Add the last message to the list of messages
+        messages.push(currentMessage);
+
+        let messageIndex = 0;
+        const sendNextMessage = () => {
+          if (messageIndex < messages.length) {
+            // Send the next message
+            TwitchClient.say(channel, "Response from AI:"+messages[messageIndex]);
+            // Increment the message index
+            messageIndex++;
+            // Wait 1s before sending the next message
+            // setTimeout(sendNextMessage, 4000);
+          }
+        };
+        sendNextMessage();
+        onCooldown = true;
+        setTimeout(() => onCooldown = false, (timeout*1000))
+      })
+      .catch((error) => {
+        // ndle any errors that occurred in the request
+
+        lastGPTResponse.innerHTML = `<p style='color:red'>Encountered following error while sending a request to openai:<br><br><code style='color:white'>${error}</code><br><br>If status code is 401, check your API key for OpenAI</p>`;
+      });
+    // setTimeout()
+  }
+  //here it ends
+  );
+};
+module.exports = handleMessage;
