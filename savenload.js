@@ -1,3 +1,4 @@
 const fs = require('fs');
 
-const save = document.getEl
+const save = document.getElementById('saveCreds');
+sa
