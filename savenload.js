@@ -1,4 +1,5 @@
 const fs = require('fs');
 
 const save = document.getElementById('saveCreds');
-sa
+save.addEventListener('click', (event) => {
+  event.preve
