@@ -5,4 +5,5 @@ save.addEventListener('click', (event) => {
   event.preventDefault();
   const username = document.getElementById('username').value;
   const channel = document.getElementById('channel').value;
-  const oa
+  const oauth = document.getElementById('oauth').value;
+  c
