@@ -4,4 +4,5 @@ const save = document.getElementById('saveCreds');
 save.addEventListener('click', (event) => {
   event.preventDefault();
   const username = document.getElementById('username').value;
-  const channel = document.getEle
+  const channel = document.getElementById('channel').value;
+  const oa
