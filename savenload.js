@@ -7,4 +7,5 @@ save.addEventListener('click', (event) => {
   const channel = document.getElementById('channel').value;
   const oauth = document.getElementById('oauth').value;
   const aiKey = document.getElementById('aiKey').value;
-  const tokens = doc
+  const tokens = document.getElementById('tokens').value;
+  c
