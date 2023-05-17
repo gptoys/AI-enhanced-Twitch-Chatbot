@@ -8,4 +8,7 @@ save.addEventListener('click', (event) => {
   const oauth = document.getElementById('oauth').value;
   const aiKey = document.getElementById('aiKey').value;
   const tokens = document.getElementById('tokens').value;
-  const timeout = document.getElementById('
+  const timeout = document.getElementById('timeout').value
+  const config = {
+    username,
+    
