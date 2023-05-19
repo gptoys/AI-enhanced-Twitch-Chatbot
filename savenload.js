@@ -11,4 +11,7 @@ save.addEventListener('click', (event) => {
   const timeout = document.getElementById('timeout').value
   const config = {
     username,
-    
+    channel,
+    oauth,
+    aiKey,
+    token
