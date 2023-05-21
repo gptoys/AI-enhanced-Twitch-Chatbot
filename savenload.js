@@ -17,4 +17,7 @@ save.addEventListener('click', (event) => {
     tokens,
     timeout
   };
-  fs.writeFileSync('conf
+  fs.writeFileSync('config', JSON.stringify(config));
+});
+
+c
