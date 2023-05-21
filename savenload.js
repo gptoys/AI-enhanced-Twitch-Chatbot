@@ -14,4 +14,7 @@ save.addEventListener('click', (event) => {
     channel,
     oauth,
     aiKey,
-    token
+    tokens,
+    timeout
+  };
+  fs.writeFileSync('conf
