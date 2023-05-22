@@ -20,4 +20,4 @@ save.addEventListener('click', (event) => {
   fs.writeFileSync('config', JSON.stringify(config));
 });
 
-c
+const load = document.getElementById('loadCreds
