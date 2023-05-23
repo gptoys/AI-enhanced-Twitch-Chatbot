@@ -21,4 +21,6 @@ save.addEventListener('click', (event) => {
 });
 
 const load = document.getElementById('loadCreds');
-load.addEventListener('click', 
+load.addEventListener('click', (event) => {
+try {
+  // Read 
