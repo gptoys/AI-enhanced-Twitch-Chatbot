@@ -23,4 +23,5 @@ save.addEventListener('click', (event) => {
 const load = document.getElementById('loadCreds');
 load.addEventListener('click', (event) => {
 try {
-  // Read 
+  // Read the config file and parse the JSON string
+  const
