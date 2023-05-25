@@ -24,4 +24,4 @@ const load = document.getElementById('loadCreds');
 load.addEventListener('click', (event) => {
 try {
   // Read the config file and parse the JSON string
-  const
+  const config = JSON.parse(fs.readFileSync('c
