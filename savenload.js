@@ -24,4 +24,6 @@ const load = document.getElementById('loadCreds');
 load.addEventListener('click', (event) => {
 try {
   // Read the config file and parse the JSON string
-  const config = JSON.parse(fs.readFileSync('c
+  const config = JSON.parse(fs.readFileSync('config'));
+
+  // Set the form input values u
