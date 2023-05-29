@@ -27,4 +27,4 @@ try {
   const config = JSON.parse(fs.readFileSync('config'));
 
   // Set the form input values using the values from the config object
-  docu
+  document.getElementById('username').value = config.use
