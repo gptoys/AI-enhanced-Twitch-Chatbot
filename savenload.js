@@ -26,4 +26,5 @@ try {
   // Read the config file and parse the JSON string
   const config = JSON.parse(fs.readFileSync('config'));
 
-  // Set the form input values u
+  // Set the form input values using the values from the config object
+  docu
