@@ -28,4 +28,5 @@ try {
 
   // Set the form input values using the values from the config object
   document.getElementById('username').value = config.username;
-  document.getElementById('channel').v
+  document.getElementById('channel').value = config.channel;
+  document.
