@@ -29,4 +29,5 @@ try {
   // Set the form input values using the values from the config object
   document.getElementById('username').value = config.username;
   document.getElementById('channel').value = config.channel;
-  document.getElementById('oauth').value = config.
+  document.getElementById('oauth').value = config.oauth;
+  document.getElementById('aiKey').value = conf
