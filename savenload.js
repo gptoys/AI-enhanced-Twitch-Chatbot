@@ -30,4 +30,5 @@ try {
   document.getElementById('username').value = config.username;
   document.getElementById('channel').value = config.channel;
   document.getElementById('oauth').value = config.oauth;
-  document.getElementById('aiKey').value = conf
+  document.getElementById('aiKey').value = config.aiKey;
+  document.getElementById
