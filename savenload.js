@@ -31,4 +31,5 @@ try {
   document.getElementById('channel').value = config.channel;
   document.getElementById('oauth').value = config.oauth;
   document.getElementById('aiKey').value = config.aiKey;
-  document.getElementById
+  document.getElementById('tokens').value = config.tokens;
+ 
