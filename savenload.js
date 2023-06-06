@@ -33,4 +33,5 @@ try {
   document.getElementById('aiKey').value = config.aiKey;
   document.getElementById('tokens').value = config.tokens;
   document.getElementById('timeout').value = config.timeout;
-} catch (error
+} catch (error) {
+  // File does not exist or JSON string is
