@@ -34,4 +34,6 @@ try {
   document.getElementById('tokens').value = config.tokens;
   document.getElementById('timeout').value = config.timeout;
 } catch (error) {
-  // File does not exist or JSON string is
+  // File does not exist or JSON string is invalid
+  console.log('No valid config found');
+}
