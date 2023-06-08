@@ -37,3 +37,4 @@ try {
   // File does not exist or JSON string is invalid
   console.log('No valid config found');
 }
+})
