@@ -8,4 +8,4 @@ This bot enables Twitch users to access GPT-3 completions through chat. Simply t
 ## Prerequisites
 
 * A Twitch account
-*
+* An OpenAI API key (registe
