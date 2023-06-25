@@ -13,4 +13,7 @@ This bot enables Twitch users to access GPT-3 completions through chat. Simply t
 
 ## Setup
 
-Download this repository to your local machin
+Download this repository to your local machine:
+
+```git
+git clone https://github.com/g
