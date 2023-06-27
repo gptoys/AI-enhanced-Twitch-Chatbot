@@ -19,4 +19,6 @@ Download this repository to your local machine:
 git clone https://github.com/gptoys/AI-enhanced-Twitch-Chatbot.git
 ```
 
-Then, navigate to the bot's direc
+Then, navigate to the bot's directory and install all dependencies:
+```
+npm ins
