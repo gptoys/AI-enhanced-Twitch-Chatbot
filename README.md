@@ -24,4 +24,8 @@ Then, navigate to the bot's directory and install all dependencies:
 npm install
 ```
 
-To launch the app 
+To launch the app from terminal
+```
+npm run start
+```
+to compi
