@@ -28,4 +28,6 @@ To launch the app from terminal
 ```
 npm run start
 ```
-to compi
+to compile a standalone .exe 
+```
+npx electron-
