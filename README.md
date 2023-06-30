@@ -30,4 +30,7 @@ npm run start
 ```
 to compile a standalone .exe 
 ```
-npx electron-
+npx electron-builder build --win portable
+```
+
+##
