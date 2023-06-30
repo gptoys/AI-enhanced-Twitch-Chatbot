@@ -33,4 +33,6 @@ to compile a standalone .exe
 npx electron-builder build --win portable
 ```
 
-##
+## Operation
+
+One token equals to appro
