@@ -35,4 +35,6 @@ npx electron-builder build --win portable
 
 ## Operation
 
-One token equals to approximately 4 characters in English language. Other languages consume more tokens, 
+One token equals to approximately 4 characters in English language. Other languages consume more tokens, resulting in shorter replies.
+
+Se
