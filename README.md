@@ -37,4 +37,4 @@ npx electron-builder build --win portable
 
 One token equals to approximately 4 characters in English language. Other languages consume more tokens, resulting in shorter replies.
 
-Se
+Set token amount in the app to specify 
