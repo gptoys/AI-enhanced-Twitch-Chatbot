@@ -37,4 +37,4 @@ npx electron-builder build --win portable
 
 One token equals to approximately 4 characters in English language. Other languages consume more tokens, resulting in shorter replies.
 
-Set token amount in the app to specify the maximum number of tokens to be used for each completion. A range between 50 and 200 tokens is typically optimal. Fewer tokens result in shorter and less cl
+Set token amount in the app to specify the maximum number of tokens to be used for each completion. A range between 50 and 200 tokens is typically optimal. Fewer tokens result in shorter and less clever responses, so for intelligent responses, us
