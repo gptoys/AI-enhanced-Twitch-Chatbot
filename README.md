@@ -39,4 +39,6 @@ One token equals to approximately 4 characters in English language. Other langua
 
 Set token amount in the app to specify the maximum number of tokens to be used for each completion. A range between 50 and 200 tokens is typically optimal. Fewer tokens result in shorter and less clever responses, so for intelligent responses, use 150-200 tokens. 
 
-Twitch messages have a character limit (approx. 500). If OpenAI's reply is too lengthy, the bot will divide the mess
+Twitch messages have a character limit (approx. 500). If OpenAI's reply is too lengthy, the bot will divide the message.
+
+To prompt a GPT-3 completion, simply t
