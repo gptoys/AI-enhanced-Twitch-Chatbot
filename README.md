@@ -41,4 +41,4 @@ Set token amount in the app to specify the maximum number of tokens to be used f
 
 Twitch messages have a character limit (approx. 500). If OpenAI's reply is too lengthy, the bot will divide the message.
 
-To prompt a GPT-3 completion, simply type !ai `<prompt>` in the Twitch chat. 
+To prompt a GPT-3 completion, simply type !ai `<prompt>` in the Twitch chat. The bot will respond with a comp
