@@ -46,4 +46,4 @@ To prompt a GPT-3 completion, simply type !ai `<prompt>` in the Twitch chat. The
 
 
 ## Disclaimer
-* Th
+* This bot relies on the OpenAI GPT-3 API, which may
