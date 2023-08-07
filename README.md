@@ -48,4 +48,5 @@ To prompt a GPT-3 completion, simply type !ai `<prompt>` in the Twitch chat. The
 ## Disclaimer
 * This bot relies on the OpenAI GPT-3 API, which may produce offensive or inappropriate completions. Use at your own discretion.
 * Also, be aware the bot employs the commercial OpenAI API. As of December 2022, OpenAI provides $18 of
-free credit and several months for testing. Continued use of GPT
+free credit and several months for testing. Continued use of GPT entails charges.
+* The bot uses [tmi.
